@@ -55,7 +55,7 @@ export default function IndexPage() {
           name: data.name,
           description: data.description,
           type: data.type,
-          tenantId:
+          tanantId:
             typeof data.tenantId === "string"
               ? parseInt(data.tenantId)
               : data.tenantId,
